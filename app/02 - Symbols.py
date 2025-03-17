@@ -1,5 +1,5 @@
 from datetime import date, datetime
-from backtrader import Cerebro, TimeFrame
+from backtrader2 import Cerebro, TimeFrame
 from BackTraderAlor.ALStore import ALStore  # Хранилище Alor
 from my_config.Config import Config  # Файл конфигурации
 import Strategy as ts  # Торговые системы
